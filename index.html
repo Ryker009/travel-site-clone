@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripy Travel</title>
+    <link rel="stylesheet" href="css/style.css" >
+     <!-- <link rel="stylesheet" href="css/ai.css"> -->
+  </head>
+  <body>
+    <header>
+      <div class="background">
+        <nav>
+          <div class="info">
+            <div class="lugo">
+              <div class="logo">
+                <a href="www.com"
+                  ><img
+                    src="img/Screenshot_2024-04-15_112538-removebg-preview (1).png"
+                    style="width: 200px"
+                    alt=""
+                /></a>
+              </div>
+              <div class="search">
+                <div class="s1">
+                  <input type="text" placeholder="SEARCH" />
+                </div>
+                <div class="s2">
+                  <button style="width: 25px; height: 25px;" >
+                    <img
+                      src="https://imgs.search.brave.com/e2taguKd7rsKz9M0MT_52gKQ7HR86j2cVPm9SNBSo0E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL0cvZ29vZ2xl/LXNlYXJjaC1hZHMt/MzYwLWxvZ28tQTdE/RUFGQzc3Ny1zZWVr/bG9nby5jb20ucG5n"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="help">
+              <a href="app.html"><li>App</li></a>
+              <a href="https://sg.trip.com/pages/support?locale=en-SG&curr=USD"
+                ><li>Help</li></a
+              >
+              <a href="www.com"
+                ><li><img src="img/ind_flag.jpg" alt="Location" /></li
+              ></a>
+              <li><button>Sign In</button></li>
+              <li><button id="Register">Register</button></li>
+            </div>
+          </div>
+          <div class="head">
+            <a href="index.html"><li>Home</li></a>
+            <a href="index.html"
+              ><li>Flights</li></a
+            >
+            <a href="index.html"
+              ><li>Trains</li></a
+            >
+            <a
+              href="index.html"
+              ><li>Cars</li></a
+            >
+            <a
+              href="index.html"
+              ><li>Attractions & Tours</li></a
+            >
+            <a href="index.html"><li>Bundle & Save</li></a>
+            <a href="index.html"
+              ><li>Cruises</li></a
+            >
+            <a href="index.html"><li>Custom Trips</li></a>
+            <a href="index.html"
+              ><li>Destinations</li></a
+            >
+            <a
+              href="index.html"
+              ><li>Trip.com Rewards</li></a
+            >
+            <a href="reg.html"><li>form</li></a>
+          </div>
+          <div class="cont_h">
+            <div class="Cont_N">
+              <h1>Your Trip Starts Here</h1>
+
+              <div class="btn-group">
+                <button class="btn btn-primary">Learn more</button>
+
+                <button class="btn btn-secondary">Book now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="container_entry">
+            <section class="tour-search">
+              <div class="container0">
+                <form action="" class="tour-search-form">
+                  <div class="input-wrapper">
+                    <label for="destination" class="input-label"
+                      >Search Destination</label
+                    >
+    
+                    <input
+                      type="text"
+                      name="destination"
+                      id="destination"
+                      required=""
+                      placeholder="Enter Destination"
+                      class="input-field"
+                    />
+                  </div>
+    
+                  <div class="input-wrapper">
+                    <label for="people" class="input-label">Max People</label>
+    
+                    <input
+                      type="number"
+                      name="people"
+                      id="people"
+                      required=""
+                      placeholder="No.of People"
+                      class="input-field"
+                    />
+                  </div>
+    
+                  <div class="input-wrapper">
+                    <label for="checkin" class="input-label">Checkin Date</label>
+    
+                    <input
+                      type="date"
+                      name="checkin"
+                      id="checkin"
+                      required=""
+                      class="input-field"
+                    />
+                  </div>
+    
+                  <div class="input-wrapper">
+                    <label for="checkout" class="input-label">Checkout Date</label>
+    
+                    <input
+                      type="date"
+                      name="checkout"
+                      id="checkout"
+                      required=""
+                      class="input-field"
+                    />
+                  </div>
+    
+                  <button type="submit" class="btn btn-secondary">
+                    Inquire now
+                  </button>
+                </form>
+              </div>
+            </section>
+          </div>
+          <!-- <form action="travel.webp">
+            <fieldset>
+              <legend>
+                <div class="c_tag">
+                  <a href="www.com"><li>Hotels</li></a>
+                </div>
+                <a href="www.com"><li>Flights</li></a>
+                <a href="www.com"><li>Cars</li></a>
+                <a href="www.com"><li>Trains</li></a>
+                <a href="www.com"><li>Attractions & Tours</li></a>
+                <a href="www.com"><li>Bundle & Save</li></a>
+              </legend>
+              <div class="form_cont">
+                <div class="c1">
+                  <h4>Destinations</h4>
+                </div>
+                <div class="c1">
+                  <h4>Destinations</h4>
+                </div>
+                <div class="c1">
+                  <h4>Destinations</h4>
+                </div>
+              </div>
+            </fieldset>
+          </form> -->
+        </nav>
+      </div>
+    </header>
+    <main>
+    
+
+      <div class="container">
+        <div class="set">
+          <div class="cont0">
+            <img src="img/banner1.jpg" alt="" />
+            <img src="img/banner2.webp" alt="" />
+            <img src="img/banner3.webp" alt="" />
+          </div>
+
+          <div class="banners">
+            <div class="cont1">
+              <h1>Featured Properties</h1>
+              <div class="guaranty">
+                <li>
+                  <img
+                    src="https://ak-d.tripcdn.com/images/0AS5f120008whj34f2145.png"
+                    alt=""
+                  />
+                  <p>We Price Match</p>
+                </li>
+                <li>
+                  <img
+                    src="https://ak-d.tripcdn.com/images/0AS6o120009gxfriv28B3.png"
+                    alt=""
+                  />
+                  <p>Hotel Booking Guarantee</p>
+                </li>
+                <li>
+                  <img
+                    src="https://ak-d.tripcdn.com/images/0AS2j120009gxknwsA052.png"
+                    alt=""
+                  />
+                  <p>Hotel Stay Guarantee</p>
+                </li>
+              </div>
+              <div class="place">
+                <button>Chandigarh</button>
+                <button>Rajasthan</button>
+                <button>Lakshadeep</button>
+                <button>Ladakh</button>
+                <button>Chennai</button>
+                <button>Assam</button>
+                <button>Odissa</button>
+              </div>
+              <div class="photos">
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-one"></div>
+                  </div>
+                  <div class="transparent1">
+                    <h3>The Taj Mahal</h3>
+                    <div>
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                    </div>
+                    <div class="tag-txt">
+                      <pre style="padding: 5px"></pre>
+                    </div>
+                    <div class="o-price">
+                      <span class="o-price__from">From</span
+                      ><span class="o-price__content">Rs 4399</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-two"></div>
+                  </div>
+                  <div class="transparent1">
+                    <h3>Goa</h3>
+                    <div>
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                    </div>
+                    <div class="tag-txt">Free Cancellation</div>
+                    <div class="o-price">
+                      <span class="o-price__from">From</span
+                      ><span class="o-price__content">Rs 6299</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-three"></div>
+                  </div>
+                  <div class="transparent1">
+                    <h3>Kerala</h3>
+                    <div>
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                    </div>
+                    <div class="tag-txt">Free Cancellation</div>
+                    <div class="o-price">
+                      <span class="o-price__from">From</span
+                      ><span class="o-price__content">Rs 18999</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-four"></div>
+                  </div>
+                  <div class="transparent">
+                    <p>Taj Hotel : Best in India</p>
+                    <button>Go Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="wrapper">
+                  <div class="parent" onclick="">
+                    <div class="child bg-one">
+                      <a href="#">Los Angeles</a>
+                    </div>
+                  </div>
+                </div> -->
+
+            <div class="cont2">
+              <h1>Featured Properties</h1>
+              <div class="guaranty">
+                <li>
+                  <img
+                    src="https://ak-d.tripcdn.com/images/0AS5f120008whj34f2145.png"
+                    alt=""
+                  />
+                  <p>We Price Match</p>
+                </li>
+                <li>
+                  <img
+                    src="https://ak-d.tripcdn.com/images/0AS6o120009gxfriv28B3.png"
+                    alt=""
+                  />
+                  <p>Hotel Booking Guarantee</p>
+                </li>
+                <li>
+                  <img
+                    src="https://ak-d.tripcdn.com/images/0AS2j120009gxknwsA052.png"
+                    alt=""
+                  />
+                  <p>Hotel Stay Guarantee</p>
+                </li>
+              </div>
+              <div class="place">
+                <button>Varanasi</button>
+                <button>Mizoram</button>
+                <button>Tamil Nadu</button>
+                <button>Kerala</button>
+                <button>Delhi</button>
+                <button>Shimla</button>
+                <button>Kashmir</button>
+              </div>
+              <div class="photos">
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-1"></div>
+                  </div>
+                  <div class="transparent1">
+                    <h3>Banaras</h3>
+                    <div>
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                    </div>
+                    <div class="tag-txt">
+                      <pre style="padding: 5px"></pre>
+                    </div>
+                    <div class="o-price">
+                      <span class="o-price__from">From</span
+                      ><span class="o-price__content">Rs 21299</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-2"></div>
+                  </div>
+                  <div class="transparent1">
+                    <h3>Kurukchetra</h3>
+                    <div>
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                    </div>
+                    <div class="tag-txt">
+                      <pre style="padding: 3px"></pre>
+                    </div>
+                    <div class="o-price">
+                      <span class="o-price__from">From</span
+                      ><span class="o-price__content">Rs 10299</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-3"></div>
+                  </div>
+                  <div class="transparent1">
+                    <h3>Golden Triangle India Itinerary</h3>
+                    <div>
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                    </div>
+                    <div class="tag-txt">Free Cancellation</div>
+                    <div class="o-price">
+                      <span class="o-price__from">From</span
+                      ><span class="o-price__content">Rs 13099</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-4"></div>
+                  </div>
+                  <div class="transparent">
+                    <p>Best Hotels Near Your Destinations</p>
+                    <button>Go Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cont3">
+              <h1>Foreign Trip</h1>
+              <div class="guaranty">
+                <li>
+                  <img
+                    src="https://ak-d.tripcdn.com/images/0AS5f120008whj34f2145.png"
+                    alt=""
+                  />
+                  <p>We Price Match</p>
+                </li>
+                <li>
+                  <img
+                    src="https://ak-d.tripcdn.com/images/0AS6o120009gxfriv28B3.png"
+                    alt=""
+                  />
+                  <p>Hotel Booking Guarantee</p>
+                </li>
+                <li>
+                  <img
+                    src="https://ak-d.tripcdn.com/images/0AS2j120009gxknwsA052.png"
+                    alt=""
+                  />
+                  <p>Hotel Stay Guarantee</p>
+                </li>
+              </div>
+              <div class="place">
+                <button>Atlanta</button>
+                <button>Orlando</button>
+                <button>Miami Beach</button>
+                <button>New York</button>
+                <button>Los Angelas</button>
+                <button>Houston</button>
+                <button>Cancun</button>
+              </div>
+              <div class="photos">
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-a"></div>
+                  </div>
+                  <div class="transparent1">
+                    <h3>Hilton Atlanta</h3>
+                    <div>
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                    </div>
+                    <div class="tag-txt" style="padding: 10px 0">
+                      Free Cancellation
+                    </div>
+                    <div class="o-price">
+                      <span class="o-price__from">From</span
+                      ><span class="o-price__content">Rs 29999</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-b"></div>
+                  </div>
+                  <div class="transparent1">
+                    <h3>The Westin Peachtree Plaza, Atlanta</h3>
+                    <div>
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                    </div>
+                    <div class="tag-txt">
+                      <pre style="padding: 3px"></pre>
+                    </div>
+                    <div class="o-price">
+                      <span class="o-price__from">From</span
+                      ><span class="o-price__content">Rs 19999</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-c"></div>
+                  </div>
+                  <div class="transparent1">
+                    <h3>AC Hotel Atlanta Downtown</h3>
+                    <div>
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                      <img
+                        src="https://imgs.search.brave.com/zwv3Bpy-BQk9iHliw19xItw9gPnX109uSpditroRWbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE4/MTkyNDc1L3Bob3Rv/L2dvbGQtc3Rhci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OWt5aHVabVB6clhR/VEhJWkNlT0FRZjJ1/Q2lYUl95SXNRdW9k/N2xZbFFLdz0"
+                        alt="Reviews"
+                      />
+                    </div>
+                    <div class="tag-txt">Free Cancellation</div>
+                    <div class="o-price">
+                      <span class="o-price__from">From</span
+                      ><span class="o-price__content">Rs 35999</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="a1">
+                  <div class="class">
+                    <div class="ban bg-d"></div>
+                  </div>
+                  <div class="transparent">
+                    <p>AC Hotel Atlanta Downtown</p>
+                    <button>Go Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img
+                src="https://img.freepik.com/premium-photo/travel-world-monuments-concept_117023-14.jpg?w=1380"
+                style="width: 100%"
+                height="500px"
+              />
+              <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img
+                src="https://watermark.lovepik.com/photo/50099/3731.jpg_wh1200.jpg"
+                style="width: 100%"
+                height="500px"
+              />
+              <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img
+                src="img/Screenshot 2024-04-01 014229.png"
+                style="width: 100vw"
+                height="500px"
+              />
+              <div class="text"></div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br />
+
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <!-- <div class="cont4"><img src="travel.webp" alt="" /></div> -->
+          <div class="text1">
+            <h3>Save on Travel With Trip.com</h3>
+            <br />
+            <p>
+              Trip.com is a rapidly-growing global online travel agency. We're
+              here to help you plan the perfect trip. Whether you're going on
+              holiday, taking a business trip, or looking to set up a corporate
+              travel account, Trip.com is here to help you travel the world with
+              cheap flights, discount hotels, and train tickets. Looking to find
+              great travel deals or enjoy the biggest savings on your next trip?
+              Trip.com has you covered. With our easy-to-use website and app,
+              along with 24-hour customer support, booking your next trip
+              couldn't be simpler. With Trip.com, quality travel services in
+              over a dozen languages including English, Mandarin, Cantonese,
+              Japanese, Korean, German, French, and Spanish are just a call—or
+              click—away.
+            </p>
+            <br />
+            <h3>
+              Easily Customize Your Trip With the Best Hotel and Flight Deals
+            </h3>
+            <br />
+            <p>
+              It's easy to customize your travel experience with our robust
+              flight and hotel search filter options and Trip.com travel tools
+              like flight fare alerts, deal-finder calendar, and early bird
+              deals. Trip.com's secure payment system takes the stress out of
+              travel by providing easy payment options, including credit and
+              debit cards and UnionPay.
+            </p>
+            <br />
+            <h3>Featured Hotel Destinations</h3>
+            <br />
+            <p>
+              Best Hotels in Shanghai | Best Hotels in Hong Kong | Best Hotels
+              in Las Vegas | Best Hotels in Bangkok | Best Hotels in Beijing |
+              Best Hotels in Guangzhou | Best Hotels in NYC | Best Hotels in
+              Singapore | Best Hotels in Kuala Lumpur | Best Hotels in Dubai |
+              Best Hotels in Chicago | Best Hotels in San Diego | Best Hotels in
+              Miami | Best Hotels in New Orleans | Best Hotels in Nashville |
+              Best Hotels in Boston | Best Hotels in Orlando | Best Hotels in
+              Savannah | Best Hotels in Charleston | Best Hotels in Los Angeles|
+              Hotels in Bangkok | Hotels in Da Nang
+            </p>
+            <br />
+            <h3>Popular Flights</h3>
+            <br />
+            <p>
+              Flights from Cairo to Jeddah | Flights from Dubai to Riyadh |
+              Flights from London to New York | Flights from London to Dubai |
+              Flights from Kuala Lumpur to Singapore | Flights from Dubai to
+              Jeddah | Flights from Orlando to San Juan | Flights from Dubai to
+              Mumbai | Flights from Cairo to Riyadh | Flights from Dubai to
+              Delhi | Flights from Bangkok to Phuket | Flights from Shanghai to
+              Beijing | Flights from New York to Los Angeles | Flights from San
+              Francisco to New York | Flights from New York to Miami | Flights
+              from Boston to Miami | Flights from Dallas to Las Vegas | Flights
+              from Boston to Orlando | Flights from Chicago to Phoenix | Flights
+              from Chicago to Miami
+            </p>
+            <br />
+            <h3>Trending Searches</h3>
+            <br />
+            <p>
+              Trip.com Promo Code | Trip.com Promo Code Malaysia | Trip.com
+              Flight Deals | Trip.com Hotel Discounts | China Public Holidays
+              2023 | Bora Bora Resorts | Japan Public Holidays 2023 | India
+              Public Holidays 2023 | Federal Holidays 2023 | Nude Beach US |
+              Visit Japan Web | Travel to Taiwan | 7 Star Hotels in India |
+              Chinatown Bangkok | Best Massage in Bangkok | Tuk Tuk | How to get
+              cheap flight tickets | Is Malaysia Open for Tourists | How to book
+              cheap hotels
+            </p>
+            <br />
+            <h3>Trip.com Links</h3>
+            <br />
+            <p>
+              Trip.com App Android | Trip.com App iOS | Trip.com on Twitter |
+              Trip.com on Facebook | Trip.com Reviews | Trip.com TripperVerse
+            </p>
+            <br />
+            <h3>Popular Airlines and Airports</h3>
+            <br />
+            <p>
+              Alaska Airlines | Spirit Airlines | Copa Airlines | Volaris | Tap
+              Air Portugal | Avianca | Allegiant | Jetblue | United Airlines |
+              American Airlines | Vivaaerobus | Air Senegal | Eastar | Iberia |
+              Kuwait Airways | Sun Country Airlines | Latam Airlines | Eva Air |
+              Frontier Airline | Delta | Myair | Turkish Airline
+            </p>
+            <br />
+            <h3>Flights to Popular Cities</h3>
+            <br />
+            <p>
+              Flights to London | Flights to Rome | Flights to Paris | Flights
+              to New York | Flights to Tokyo | Flights to Las Vegas | Flights to
+              Miami | Flights to Orlando | Flights to Hawaii | Flights to
+              Atlanta | American Airlines Flights to Hawaii | American Airlines
+              Flights to Cancun | United Airlines Flights to Las Vegas | United
+              Airlines Flights to Cancun | Delta Air Lines Flights to Dublin |
+              Delta Air Lines Flights to Miami | Spirit Airlines Flights to
+              Myrtle Beach | Spirit Airlines Flights to Orlando | Alaska
+              Airlines Flights to San Francisco | Alaska Airlines Flights to
+              Houston
+            </p>
+            <br />
+          </div>
+          <hr />
+          <div class="foot">
+            <div class="foot1">
+              <li><b>Contact Us</b></li>
+              <br />
+              <li>Customer Support</li>
+              <li>Service Gurantee</li>
+              <li>More Service Info</li>
+              <li>WebSite Feedback</li>
+              <li>
+                <div class="symbol">
+                  <a href="www.com"
+                    ><img src="img/1_Instagram_colored_svg_1-128.webp" alt=""
+                  /></a>
+                  <a href="www.com"
+                    ><img src="img/1_Youtube_colored_svg-128.webp" alt=""
+                  /></a>
+                  <a href="www.com"
+                    ><img src="img/1_Twitter_colored_svg-128.webp" alt=""
+                  /></a>
+                </div>
+              </li>
+            </div>
+            <div class="foot1">
+              <li><b>About</b></li>
+              <br />
+              <li>About Trip.com</li>
+              <li>News</li>
+              <li>Careers</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Statement</li>
+              <li>Do Not Sell My Personal Information</li>
+              <li>About Tip.com Group</li>
+            </div>
+            <div class="foot1">
+              <li><b>Other Services</b></li>
+              <br />
+              <li>Investor Relations</li>
+              <li>Trip.com Rewards</li>
+              <li>Affiliate Program</li>
+              <li>List My Hotels</li>
+              <li>All Hotels</li>
+              <li>Become a Supplier</li>
+              <li>Security</li>
+            </div>
+            <div class="foot1">
+              <li>Payment Methods</li>
+              <br />
+              <li>
+                <div class="payment">
+                  <img
+                    class="p1"
+                    src="https://ak-d.tripcdn.com/images/05E2712000cjsr5ul9716.png"
+                    alt="visa"
+                  /><img
+                    class="p2"
+                    src="https://ak-d.tripcdn.com/images/05E0f12000cjsr2f9AAAB.png"
+                    alt="master-card"
+                  /><img
+                    class="p3"
+                    src="https://ak-d.tripcdn.com/images/05E3y12000cjsr5u9D4F1.png"
+                    alt="american-express"
+                  /><img
+                    class="p4"
+                    src="https://ak-d.tripcdn.com/images/05E2812000cjsr3vj8DF9.png"
+                    alt="upi"
+                  /><img
+                    class="p5"
+                    src="https://ak-d.tripcdn.com/images/05E4f12000cjsqzn4B29D.png"
+                    alt="paypal"
+                  /><img
+                    class="p6"
+                    src="https://ak-d.tripcdn.com/images/05E0y12000cjsqzt761C6.png"
+                    alt="diners"
+                  /><img
+                    class="p7"
+                    src="https://ak-d.tripcdn.com/images/05E3e12000cjsr47e852C.png"
+                    alt="discover"
+                  /><img
+                    class="p8"
+                    src="https://ak-d.tripcdn.com/images/05E6a12000cr9d3n66F03.png"
+                    alt="google-pay"
+                  /><img
+                    class="p9"
+                    src="https://ak-d.tripcdn.com/images/05E0u12000cjsqynr567B.png"
+                    alt="apple-pay"
+                  />
+                </div>
+              </li>
+              <br />
+              <li>Our Partners</li>
+              <br />
+              <li>
+                <div class="partner">
+                  <img
+                    class="partner_google"
+                    alt="GOOGLE"
+                    src="https://ak-d.tripcdn.com/images/05E6e12000cjso3ro7BEE.png"
+                  />
+                </div>
+              </li>
+            </div>
+          </div>
+          <br />
+          <hr />
+          <div class="brand">
+            <img
+              height="32"
+              alt="tripy.trip group"
+              src="https://ak-d.tripcdn.com/images/05E1112000cx47zr7DBBA.png"
+            />
+            <div class="mc-ft_brand-list">
+              <img
+                height="22"
+                alt="Skyscanner"
+                src="https://ak-d.tripcdn.com/images/wj0t1800000156kx536A0.png"
+              /><img
+                height="22"
+                alt="Trip"
+                src="https://ak-d.tripcdn.com/images/0AS5z1200096fxqjc2462.png"
+              />
+            </div>
+            <div class="brand-title">
+              Trip.com is part of Trip.com Group Limited, one of the world's
+              leading providers of travel services.
+            </div>
+          </div>
+          <hr />
+          <br />
+          <div class="f">
+            <p>
+              Copyright &copy;2024 Trip.com Travel Singapore Pte. Ltd. All
+              rights reserved <br />
+              Site Operator: Trip.com Travel Singapore Pte. Ltd.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="js/index.js"></script>
+
+    <!-- INSERT INTO `travel` (`sr. no.`, `Name`, `Age`, `Gender`, `Email`, `Phone`, `Other`, `Date Time`) VALUES ('1', 'sbeb', '3', 'sd', 'agshhss', '1233', '', current_timestamp()); -->
+  </body>
+</html>
