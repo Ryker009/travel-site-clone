@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 80vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background: rgb(186, 237, 237);
+    border-style:double;
+}
+.logo img{
+    width: 75px;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 0 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+nav ul li{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(103, 72, 72, 0.923);
+}
+ul li a:hover{
+
+    color: rgb(37, 25, 215);
+}
+.search button{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+     padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.search input{
+    width: 15vw;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+body{
+    background-color: white;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbol img{
+    float: right;
+    width: 30px;
+    padding: 10px;
+}
+.lugo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select{
+padding: 0 10px;
+}
